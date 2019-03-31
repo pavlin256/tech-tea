@@ -18,10 +18,4 @@ public class ServerProperties {
     void prettyPrint() {
         System.out.println(toString());
     }
-
-    @ToString
-    private static class Host {
-        @Getter @Setter private String ip;
-        @Getter @Setter private int port;
-    }
 }
